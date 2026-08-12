@@ -1,0 +1,97 @@
+/* Takes care of most colors */
+* {
+    --theme-bg-home: #11111B;
+    --theme-ai-searchbox-bg: #252539;
+    --chip-select-bg: #252539 !important;
+    --chip-select-indicator-bg: #313244;
+    --theme-col-bg-card:#252539;
+    --theme-col-bg-page: #252539;
+    --sds-color-background-dark: #11111B;
+    --theme-col-bg-button-secondary: #252539;
+    --theme-assist-gradient-stop: #252539; /* collapsed AI overview gradient */
+    --sds-color-text-on-color: #1E1E2E;
+    --theme-assist-bg-chat-system: #252539 !important;
+    --sds-color-palette-gray-80: #313244;
+    --sds-color-palette-gray-60: #45475a;
+    --sds-color-background-02: #252539;
+    --sds-color-background-03: #313244;
+    --sds-color-background-container-01: #252539; /* related searches thing */
+    --sds-color-background-container-02: #313244; /* same but hovered */
+    --theme-col-bg-expandcollapse: #313244;
+    --theme-col-bg-expandcollapse-hover: #45475a;
+}
+/* Page background */
+.js-site-wrapper {
+  background: #1e1b2d;
+}
+
+/* Header background */
+#header_wrapper {
+  background: #1e1b2d;
+}
+
+/* Dictionary background */
+.module {
+    background: #252539 !important;
+}
+
+/* Search bar */
+.T265XEcezvjUhK71U8pN {
+    background-color: #252539 !important;
+}
+/* extra patch for the search bar on the settings page */
+#search_form.search--adv {
+    background-color: #252539;
+}
+.search__button:hover {
+    background-color: #313244;
+}
+
+/* Dictionary expand and collapse button */
+.js-definitions-more, .js-definitions-less {
+    background: #313244;
+}
+
+/* Fix visual bugs */
+nav.ph1UFslrkUMqoYJEtp3t.hnKIeVb9Fi3YMCZAeQvR {
+    --theme-col-bg-page: #00000000
+}
+nav.DrcPyihFGyKMlg6lpwsa.fmNE5tkVXayTmN_LsM5d::before, nav.DrcPyihFGyKMlg6lpwsa.fmNE5tkVXayTmN_LsM5d {
+    --theme-col-bg-header: #00000000
+}
+
+/* Wikipedia definition expander and View File image button */
+
+.Gr22SUHQb8xKdEwTxIxe.ffON2NH02oMAcqyoh2UU.vcOFkrrvuSYp7xsAur2Y.q7VhSk71XgyB1xYfeChb.ACez7bVvgYxZ9w0qR8ne {
+    background-color: #313244;
+}
+
+
+.WRx_xSx51EXkymGmPRNJ button {
+    background-color: hsla(261.8, 97.1%, 86.7%, 0.18) !important;
+}
+
+/* slide out menu */
+.nav-menu--slideout {
+    background-color: #252539;
+}
+
+/* remove the default browser popup */
+.ddg-extension-hide {
+    display: none !important
+}
+
+/* Settings page stuff */
+.set-tab:not(.is-active) {
+    background-color: #252539 !important;
+}
+.frm__select__input {
+    background-color: #252539 !important;
+}
+.frm__select {
+    background-color: #252539;
+}
+.frm__select:hover {
+    background-color: #313244;
+    border-color: #313244;
+}
