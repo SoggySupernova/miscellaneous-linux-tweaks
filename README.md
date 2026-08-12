@@ -1,7 +1,7 @@
 # Miscellaneous Linux Tweaks
 A collection of small Linux tweaks, scripts, and utilities I have made over the years.<br>
 Most tweaks come with an `install.sh` or a README.<br>
-Enable all scripts:
+Enable all scripts (should not be necessary):
 ```
 chmod +x */*.sh
 ```
