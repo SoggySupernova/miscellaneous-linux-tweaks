@@ -9,7 +9,7 @@
     --sds-color-background-dark: #11111B;
     --theme-col-bg-button-secondary: #252539;
     --theme-assist-gradient-stop: #252539; /* collapsed AI overview gradient */
-    --sds-color-text-on-color: #1E1E2E;
+    --sds-color-text-on-color: #1e1b2d;
     --theme-assist-bg-chat-system: #252539 !important;
     --sds-color-palette-gray-80: #313244;
     --sds-color-palette-gray-60: #45475a;
@@ -19,15 +19,16 @@
     --sds-color-background-container-02: #313244; /* same but hovered */
     --theme-col-bg-expandcollapse: #313244;
     --theme-col-bg-expandcollapse-hover: #45475a;
+    --sds-color-background-01: #1e1b2d;
 }
 /* Page background */
 .js-site-wrapper {
-  background: #1e1b2d;
+    background: #1e1b2d;
 }
 
 /* Header background */
 #header_wrapper {
-  background: #1e1b2d;
+background: #1e1b2d;
 }
 
 /* Dictionary background */
@@ -41,7 +42,7 @@
 }
 /* extra patch for the search bar on the settings page */
 #search_form.search--adv {
-    background-color: #252539;
+background-color: #252539;
 }
 .search__button:hover {
     background-color: #313244;
@@ -59,6 +60,12 @@ nav.ph1UFslrkUMqoYJEtp3t.hnKIeVb9Fi3YMCZAeQvR {
 nav.DrcPyihFGyKMlg6lpwsa.fmNE5tkVXayTmN_LsM5d::before, nav.DrcPyihFGyKMlg6lpwsa.fmNE5tkVXayTmN_LsM5d {
     --theme-col-bg-header: #00000000
 }
+
+/* Horizontal lines */
+.frm__hr, .set-head, .set-main-footer, .set-noai-note {
+    border-color: #252539;
+}
+
 
 /* Wikipedia definition expander and View File image button */
 
@@ -94,4 +101,57 @@ nav.DrcPyihFGyKMlg6lpwsa.fmNE5tkVXayTmN_LsM5d::before, nav.DrcPyihFGyKMlg6lpwsa.
 .frm__select:hover {
     background-color: #313244;
     border-color: #313244;
+}
+
+
+
+
+/* Timer widget and similar */
+.tile {
+    background: #252539;
+    box-shadow: 0 1px 3px 0 rgba(26, 26, 54, 0.5);
+    border-color: #252539;
+}
+.add_minute {
+    background: #252539;
+    box-shadow: 0 1px 3px 0 rgba(26, 26, 54, 0.5);
+    border-color: #252539;
+}
+
+
+
+
+
+
+/* hide new ad in settings */
+.set-browser-promo {
+    display: none
+}
+
+/* new settings ui */
+.cloudsave {
+    background-color: #252539
+}
+.btn {
+    background-color: #252539
+}
+.domain-list, .js-domain-list, .domain-list:empty::after {
+    background: #252539 !important
+}
+.frm__color__swatch {
+    border-color: #252539
+}
+.frm__field.fix:not(.is-checked) > .frm__switch.frm-input > .frm__switch__label.btn{
+    background-color: #3a3c59; /* this is a new unique color */
+}
+.set-bookmarklet, .set-reset {
+    background-color: #252539
+}
+
+/* Homepage */
+* {
+    --theme-bg-home-canvas: #181624; /* another bespoke color */
+    --ds-surface-tertiary: #252539;
+    --ds-surface-secondary: #1e1b2d;
+    --ds-surface-canvas: #1e1b2d
 }
