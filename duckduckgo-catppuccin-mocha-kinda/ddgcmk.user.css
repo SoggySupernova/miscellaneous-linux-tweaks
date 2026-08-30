@@ -20,15 +20,17 @@
     --theme-col-bg-expandcollapse: #313244;
     --theme-col-bg-expandcollapse-hover: #45475a;
     --sds-color-background-01: #1e1b2d;
+    --ds-color-gray-70: #313244;
+    --ds-color-gray-90: #252539
 }
 /* Page background */
 .js-site-wrapper {
-    background: #1e1b2d;
+  background: #1e1b2d;
 }
 
 /* Header background */
 #header_wrapper {
-background: #1e1b2d;
+  background: #1e1b2d;
 }
 
 /* Dictionary background */
@@ -42,7 +44,7 @@ background: #1e1b2d;
 }
 /* extra patch for the search bar on the settings page */
 #search_form.search--adv {
-background-color: #252539;
+    background-color: #252539;
 }
 .search__button:hover {
     background-color: #313244;
@@ -150,8 +152,22 @@ nav.DrcPyihFGyKMlg6lpwsa.fmNE5tkVXayTmN_LsM5d::before, nav.DrcPyihFGyKMlg6lpwsa.
 
 /* Homepage */
 * {
-    --theme-bg-home-canvas: #181624; /* another bespoke color */
+   --theme-bg-home-canvas: #181624; /* another bespoke color */
     --ds-surface-tertiary: #252539;
     --ds-surface-secondary: #1e1b2d;
     --ds-surface-canvas: #1e1b2d
+}
+
+/* more search assist styles */
+[data-streamdown="inline-code"] {
+    background-color: #313244
+}
+.eCtaNKsm4_5YMF04DXNm, .eCtaNKsm4_5YMF04DXNm:visited {
+    background-color: #313244
+}
+
+/* Footer */
+.footer, .footer--mobile {
+    border-top-color: #252539;
+    background-color: #181624 /*that bespoke color again. technically the footer is normally the same color as the rest of the background but i think it looks better this way*/
 }
