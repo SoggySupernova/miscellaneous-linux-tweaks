@@ -1,58 +1,78 @@
+/* COLOR PALETTE */
+* {
+    --userstyle-color-01: #11111B;
+    --userstyle-color-02: #181624; /* Not part of catppuccin color palette */
+    --userstyle-color-03: #1e1b2d;
+    --userstyle-color-04: #252539;
+    --userstyle-color-05: #313244;
+    --userstyle-color-06: #3a3c59; /* Not part of catppuccin color palette */
+    --userstyle-color-07: #45475a;
+
+}
+
+
+
+
 /* Takes care of most colors */
 * {
-    --theme-bg-home: #11111B;
-    --theme-ai-searchbox-bg: #252539;
-    --chip-select-bg: #252539 !important;
-    --chip-select-indicator-bg: #313244;
-    --theme-col-bg-card:#252539;
-    --theme-col-bg-page: #252539;
-    --sds-color-background-dark: #11111B;
-    --theme-col-bg-button-secondary: #252539;
-    --theme-assist-gradient-stop: #252539; /* collapsed AI overview gradient */
-    --sds-color-text-on-color: #1e1b2d;
-    --theme-assist-bg-chat-system: #252539 !important;
-    --sds-color-palette-gray-80: #313244;
-    --sds-color-palette-gray-60: #45475a;
-    --sds-color-background-02: #252539;
-    --sds-color-background-03: #313244;
-    --sds-color-background-container-01: #252539; /* related searches thing */
-    --sds-color-background-container-02: #313244; /* same but hovered */
-    --theme-col-bg-expandcollapse: #313244;
-    --theme-col-bg-expandcollapse-hover: #45475a;
-    --sds-color-background-01: #1e1b2d;
-    --ds-color-gray-70: #313244;
-    --ds-color-gray-90: #252539
+    --theme-bg-home: var(--userstyle-color-01);
+    --theme-ai-searchbox-bg: var(--userstyle-color-04);
+    --chip-select-bg: var(--userstyle-color-04) !important;
+    --chip-select-indicator-bg: var(--userstyle-color-05);
+    --theme-col-bg-card:var(--userstyle-color-04);
+    --theme-col-bg-page: var(--userstyle-color-04);
+    --sds-color-background-dark: var(--userstyle-color-01);
+    --theme-col-bg-button-secondary: var(--userstyle-color-04);
+    --theme-assist-gradient-stop: var(--userstyle-color-04); /* collapsed AI overview gradient */
+    --sds-color-text-on-color: var(--userstyle-color-03);
+    --theme-assist-bg-chat-system: var(--userstyle-color-04) !important;
+    --sds-color-palette-gray-80: var(--userstyle-color-05);
+    --sds-color-palette-gray-60: var(--userstyle-color-07);
+    --sds-color-background-02: var(--userstyle-color-04);
+    --sds-color-background-03: var(--userstyle-color-05);
+    --sds-color-background-container-01: var(--userstyle-color-04); /* related searches thing */
+    --sds-color-background-container-02: var(--userstyle-color-05); /* same but hovered */
+    --theme-col-bg-expandcollapse: var(--userstyle-color-05);
+    --theme-col-bg-expandcollapse-hover: var(--userstyle-color-07);
+    --sds-color-background-01: var(--userstyle-color-03);
+    --ds-color-gray-70: var(--userstyle-color-05);
+    --ds-color-gray-90: var(--userstyle-color-04);
+    --result-item-bg: var(--userstyle-color-03); /* highlighted search result */
 }
 /* Page background */
 .js-site-wrapper {
-  background: #1e1b2d;
+    background: var(--userstyle-color-03);
+}
+
+body {
+    background-color: var(--userstyle-color-03) !important;
 }
 
 /* Header background */
 #header_wrapper {
-  background: #1e1b2d;
+background: var(--userstyle-color-03);
 }
 
 /* Dictionary background */
 .module {
-    background: #252539 !important;
+    background: var(--userstyle-color-04) !important;
 }
 
 /* Search bar */
 .T265XEcezvjUhK71U8pN {
-    background-color: #252539 !important;
+    background-color: var(--userstyle-color-04) !important;
 }
 /* extra patch for the search bar on the settings page */
 #search_form.search--adv {
-    background-color: #252539;
+background-color: var(--userstyle-color-04);
 }
 .search__button:hover {
-    background-color: #313244;
+    background-color: var(--userstyle-color-05);
 }
 
 /* Dictionary expand and collapse button */
 .js-definitions-more, .js-definitions-less {
-    background: #313244;
+    background: var(--userstyle-color-05);
 }
 
 /* Fix visual bugs */
@@ -65,14 +85,14 @@ nav.DrcPyihFGyKMlg6lpwsa.fmNE5tkVXayTmN_LsM5d::before, nav.DrcPyihFGyKMlg6lpwsa.
 
 /* Horizontal lines */
 .frm__hr, .set-head, .set-main-footer, .set-noai-note {
-    border-color: #252539;
+    border-color: var(--userstyle-color-04);
 }
 
 
 /* Wikipedia definition expander and View File image button */
 
 .Gr22SUHQb8xKdEwTxIxe.ffON2NH02oMAcqyoh2UU.vcOFkrrvuSYp7xsAur2Y.q7VhSk71XgyB1xYfeChb.ACez7bVvgYxZ9w0qR8ne {
-    background-color: #313244;
+    background-color: var(--userstyle-color-05);
 }
 
 
@@ -82,7 +102,7 @@ nav.DrcPyihFGyKMlg6lpwsa.fmNE5tkVXayTmN_LsM5d::before, nav.DrcPyihFGyKMlg6lpwsa.
 
 /* slide out menu */
 .nav-menu--slideout {
-    background-color: #252539;
+    background-color: var(--userstyle-color-04);
 }
 
 /* remove the default browser popup */
@@ -92,17 +112,17 @@ nav.DrcPyihFGyKMlg6lpwsa.fmNE5tkVXayTmN_LsM5d::before, nav.DrcPyihFGyKMlg6lpwsa.
 
 /* Settings page stuff */
 .set-tab:not(.is-active) {
-    background-color: #252539 !important;
+    background-color: var(--userstyle-color-04) !important;
 }
 .frm__select__input {
-    background-color: #252539 !important;
+    background-color: var(--userstyle-color-04) !important;
 }
 .frm__select {
-    background-color: #252539;
+    background-color: var(--userstyle-color-04);
 }
 .frm__select:hover {
-    background-color: #313244;
-    border-color: #313244;
+    background-color: var(--userstyle-color-05);
+    border-color: var(--userstyle-color-05);
 }
 
 
@@ -110,14 +130,14 @@ nav.DrcPyihFGyKMlg6lpwsa.fmNE5tkVXayTmN_LsM5d::before, nav.DrcPyihFGyKMlg6lpwsa.
 
 /* Timer widget and similar */
 .tile {
-    background: #252539;
+    background: var(--userstyle-color-04);
     box-shadow: 0 1px 3px 0 rgba(26, 26, 54, 0.5);
-    border-color: #252539;
+    border-color: var(--userstyle-color-04);
 }
 .add_minute {
-    background: #252539;
+    background: var(--userstyle-color-04);
     box-shadow: 0 1px 3px 0 rgba(26, 26, 54, 0.5);
-    border-color: #252539;
+    border-color: var(--userstyle-color-04);
 }
 
 
@@ -132,42 +152,81 @@ nav.DrcPyihFGyKMlg6lpwsa.fmNE5tkVXayTmN_LsM5d::before, nav.DrcPyihFGyKMlg6lpwsa.
 
 /* new settings ui */
 .cloudsave {
-    background-color: #252539
+    background-color: var(--userstyle-color-04)
 }
 .btn {
-    background-color: #252539
+    background-color: var(--userstyle-color-04)
 }
 .domain-list, .js-domain-list, .domain-list:empty::after {
-    background: #252539 !important
+    background: var(--userstyle-color-04) !important
 }
 .frm__color__swatch {
-    border-color: #252539
+    border-color: var(--userstyle-color-04)
 }
 .frm__field.fix:not(.is-checked) > .frm__switch.frm-input > .frm__switch__label.btn{
-    background-color: #3a3c59; /* this is a new unique color */
+    background-color: var(--userstyle-color-06); /* this is a new unique color */
 }
 .set-bookmarklet, .set-reset {
-    background-color: #252539
+    background-color: var(--userstyle-color-04)
+}
+.set-bookmarklet__detail {
+    background-color: var(--userstyle-color-04)
+}
+.set-bookmarklet__input, .set-bookmarklet__data {
+    background-color: var(--userstyle-color-05)
+}
+/* move the hover color of the reset settings button to fix rounded corner */
+.set-reset__title:hover {
+    background-color: rgba(0,0,0,0);
+}
+.set-reset:hover {
+    background-color: var(--userstyle-color-05)
+}
+/* fix double background border thing */
+.set-bookmarklet__detail.js-set-bookmarklet-detail {
+    background-color: transparent;
+}
+/* color inputs */
+#setting_k7, #setting_kj, #setting_k9, #setting_kaa, #setting_k8, #setting_kx, #setting_k21 {
+background-color: var(--userstyle-color-04)
+}
+.colorpicker {
+    background-color: var(--userstyle-color-04)
+}
+.colorpicker__nub {
+    background-color: var(--userstyle-color-04) !important;
+    border-color: var(--userstyle-color-04) !important;
 }
 
 /* Homepage */
 * {
-   --theme-bg-home-canvas: #181624; /* another bespoke color */
-    --ds-surface-tertiary: #252539;
-    --ds-surface-secondary: #1e1b2d;
-    --ds-surface-canvas: #1e1b2d
+    --theme-bg-home-canvas: var(--userstyle-color-02); /* another bespoke color */
+    --ds-surface-tertiary: var(--userstyle-color-04);
+    --ds-surface-secondary: var(--userstyle-color-03);
+    --ds-surface-canvas: var(--userstyle-color-03)
 }
 
 /* more search assist styles */
 [data-streamdown="inline-code"] {
-    background-color: #313244
+    background-color: var(--userstyle-color-05)
 }
 .eCtaNKsm4_5YMF04DXNm, .eCtaNKsm4_5YMF04DXNm:visited {
-    background-color: #313244
+    background-color: var(--userstyle-color-05)
 }
 
 /* Footer */
 .footer, .footer--mobile {
-    border-top-color: #252539;
-    background-color: #181624 /*that bespoke color again. technically the footer is normally the same color as the rest of the background but i think it looks better this way*/
+    border-top-color: var(--userstyle-color-04);
+    background-color: var(--userstyle-color-02) /*that bespoke color again. technically the footer is normally the same color as the rest of the background but i think it looks better this way*/
+}
+
+
+
+/* Gradient weirdness around search medium options */
+.DrcPyihFGyKMlg6lpwsa::before {
+    background-image: linear-gradient(90deg,var(--userstyle-color-03),var(--theme-col-bg-header-transparent))
+}
+
+.XvPRmQVeIoCP5lQhICTv.ofDl_1VxUG_EKc3b9E3x::before {
+    background-image: linear-gradient(90deg,var(--theme-col-bg-header-transparent),var(--userstyle-color-03))
 }
