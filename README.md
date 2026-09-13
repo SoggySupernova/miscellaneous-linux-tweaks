@@ -15,7 +15,7 @@ Just a simple fish prompt I made for myself. It has some abstraction which can b
 ## Universal GPU Offload
 Attempts to offload the GPU in as many cases as possible. It should work for X11, Wayland, EGL, GLX, Vulkan, Nvidia, AMD, and/or Mesa. Run with `ugo %command%` after installing with `install.sh`.<br>`ugo2` gives you four levels.<br>Usage:
 ```
-ugo2 <0-4> command
+ugo2 <0-4> %command%
 0 - no-op: runs command with no vars set (baseline/control)
 1 - GLX + EGL-X11 + Vulkan offload (routing only, no device hiding)
 2 - adds native-Wayland coverage (GBM) - risk: can crash on some compositors
@@ -23,4 +23,4 @@ ugo2 <0-4> command
 4 - adds loader-level ICD restriction - apps can't opt out; also removes software/lavapipe fallback for anything else in the process
 ```
 <br>
-Card defaults to nvidia, use `DGPU_CARD=amd ugo2 <0-4> command` for AMD cards (and intel?)
+Card defaults to nvidia, use ```DGPU_CARD=amd ugo2 <0-4> %command%``` for AMD cards (and intel?)
