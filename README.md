@@ -23,4 +23,8 @@ ugo2 <0-4> %command%
 4 - adds loader-level ICD restriction - apps can't opt out; also removes software/lavapipe fallback for anything else in the process
 ```
 <br>
-Card defaults to nvidia, use ```DGPU_CARD=amd ugo2 <0-4> %command%``` for AMD cards (and intel?)
+Card defaults to nvidia, use
+```
+DGPU_CARD=amd ugo2 <0-4> %command%
+```
+for AMD cards (and intel?)
