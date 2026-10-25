@@ -7,6 +7,8 @@ chmod +x */*.sh
 ```
 ## DuckDuckGo Catppuccin Mocha Kinda (Not linux specific)
 A userstyle for duckduckgo.com based on a slightly more saturated Catppuccin Mocha.
+## Kio Servicemenus
+Two of my custom context menus for Dolphin.
 ## My fastfetch Config
 Default except for circle symbol for colors
 ## My Fish Prompt

@@ -1,0 +1,27 @@
+[Desktop Entry]
+Type=Service
+MimeType=image/png;image/jpeg;image/webp;image/gif;image/x-icon;image/heic;
+Actions=convertToJpg;convertToPng;convertToWebp;convertToGif;convertToIco;
+X-KDE-Submenu=Convert To
+X-KDE-Priority=TopLevel
+X-KDE-Submenu-Icon=albumfolder-importimages
+[Desktop Action convertToJpg]
+Name=Convert to JPG
+Icon=edit-image
+Exec=convert "%f" -background white -alpha remove "%d/%n.jpg"
+[Desktop Action convertToPng]
+Name=Convert to PNG
+Icon=edit-image
+Exec=convert "%f" "%d/%n.png"
+[Desktop Action convertToWebp]
+Name=Convert to WebP
+Icon=edit-image
+Exec=convert "%f" -quality 85 "%d/%n.webp"
+[Desktop Action convertToGif]
+Name=Convert to GIF
+Icon=edit-image
+Exec=convert "%f" "%d/%n.gif"
+[Desktop Action convertToIco]
+Name=Convert to ICO
+Icon=edit-image
+Exec=convert "%f" -define icon:auto-resize=256,64,48,32,16 "%d/%n.ico"
