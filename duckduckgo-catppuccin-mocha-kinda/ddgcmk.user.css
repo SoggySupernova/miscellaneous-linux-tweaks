@@ -38,6 +38,9 @@
     --ds-color-gray-70: var(--userstyle-color-05);
     --ds-color-gray-90: var(--userstyle-color-04);
     --result-item-bg: var(--userstyle-color-03); /* highlighted search result */
+    --theme-col-bg-button-expandcollapse: var(--userstyle-color-06);
+    --theme-col-bg-button-expandcollapse-hover: var(--userstyle-color-07);
+    --theme-col-border-button-expandcollapse: var(--userstyle-color-07);
 }
 /* Page background */
 .js-site-wrapper {
